@@ -77,18 +77,6 @@
   background-color: #2f80ed;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
-
-
-
-
 
 
 .description {
@@ -272,9 +260,12 @@
   margin-bottom: 90px;
 }
 
+/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
-  margin-top: 80px;
   width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .kaufman__triangle {
