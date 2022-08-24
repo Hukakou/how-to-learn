@@ -247,7 +247,7 @@
 
 .section-title_theme_dark,
 .section-subtitle_theme_dark,
-.table__theme__dark {
+.table_theme_dark {
   color: white;
   z-index: 3;
 }
@@ -256,7 +256,7 @@
   margin-top: 90px;
 }
 
-.table__theme__dark {
+.table_theme_dark {
   margin-bottom: 90px;
 }
 
@@ -269,6 +269,8 @@
 }
 
 .kaufman__triangle {
+  height: 877px;
+  width: 877px;
   position: absolute;
   right: -210px;
   z-index: 1;
