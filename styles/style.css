@@ -85,6 +85,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .two-columns {
@@ -155,6 +156,8 @@
 }
 
 .table {
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   width: 1100px;
@@ -194,7 +197,7 @@
   background-repeat: no-repeat;
   background-size: 867px 637px;
   background-position: 0 100%;
-  margin-top: 100px;
+  /* margin-top: 100px; */
   text-align: center;
 }
 
@@ -222,6 +225,7 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
 }
 
 .kaufman {
@@ -254,6 +258,8 @@
 }
 
 .table_theme_dark {
+  margin: 0;
+  padding: 0;
   margin-bottom: 90px;
 }
 
