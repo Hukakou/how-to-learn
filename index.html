@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
 
@@ -42,25 +41,25 @@
                 но часто в итоге это не дает нам реального знания. Зубрежка
                 быстро выветривается и не приносит пользы.
               </p>
-              <div class="two-columns__paragraph">
+              <p class="two-columns__paragraph">
                 <span class="two-columns__span-accent">Вывод:</span>
                 учиться тоже нужно уметь, но почему-то этому мало где учат. Что
                 с этим делать?
-              </div>
-              <div class="two-columns__paragraph">
+              </p>
+              <p class="two-columns__paragraph">
                 Конкретные техники и упражнения помогают изменить подход к
                 обучению, сделать его эффективным и захватывающим. Эти же
                 техники применяются на примере обучения в Практикуме.
-              </div>
+              </p>
             </div>
           </article>
         </section>
 
         <section class="techniques">
           <h2 class="section-title">Техники обучения</h2>
-          <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
-          <div class="cards">
-            <div class="cards__item">
+          <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+          <ul class="cards">
+            <li class="cards__item">
               <img
                 src="./images_sprint-2/cards-attention.png"
                 alt="101 эссе изменит ваше мнение"
@@ -71,8 +70,8 @@
                 Глубокие знания возникают, если чередовать сфокусированное и
                 рассеянное мышление.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images_sprint-2/cards-recall.png"
                 alt="Статуя"
@@ -83,8 +82,8 @@
                 Вспоминайте изученное — это позволит соединить разрозненные
                 порции памяти.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images_sprint-2/cards-interliving.png"
                 alt="Помощение"
@@ -95,8 +94,8 @@
                 Изучайте несколько навыков одновременно, они обогащают друг
                 друга.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images_sprint-2/cards-question.png"
                 alt="Неизвестное"
@@ -107,8 +106,8 @@
                 Слушая преподавателя, придумывайте хороший вопрос, который вас
                 действительно волнует.
               </p>
-            </div>
-            <div class="cards__item">
+            </li>
+            <li class="cards__item">
               <img
                 src="./images_sprint-2/cards-competence.png"
                 alt="книги"
@@ -119,8 +118,8 @@
                 Повторите про себя, запишите, расскажите другу: вам только
                 кажется, что вы владеете новой темой.
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
 
         <section class="video">
@@ -129,16 +128,12 @@
           <div class="video__iframes">
             <iframe
               id="ytplayer"
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed/5MgBikgcWnY"
               allowfullscreen
               class="video__iframe"
             ></iframe>
             <iframe
               id="ytplayer2"
-              width="515"
-              height="316"
               src="https://www.youtube.com/embed/arj7oStGLkU"
               allowfullscreen
               class="video__iframe"
@@ -222,14 +217,14 @@
         <section class="khan">
           <div class="khan__container">
             <p class="khan__author">Салман Хан</p>
-            <h3 class="khan__title">Весь мир — школа</h3>
-            <p class="khan__quote">
+            <h2 class="khan__title">Весь мир — школа</h2>
+            <blockquote class="khan__quote">
               Страсть и новаторство Сала Хана меняют процесс обучения миллионов
               студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать
               всем, кто занимается образованием — так учащиеся повсюду смогут
               получить навыки и знания, которые приносят успех в школе, карьере
               и жизни.
-            </p>
+            </blockquote>
             <p class="khan__quote-author">Джордж Лукас</p>
             <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
             <div class="khan__book-container">
@@ -253,9 +248,9 @@
           <ul class="table table_theme_dark">
             <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading table__heading_theme_dark">1</h4>
-              <div class="table__text table__text_theme_dark">
+              <p class="table__text table__text_theme_dark">
                 Выберите привлекательный проект.
-              </div>
+              </p>
             </li>
             <li class="table__cell table__cell_theme_dark">
               <h4 class="table__heading table__heading_theme_dark">2</h4>
@@ -325,19 +320,25 @@
               ><img
                 src="./images_sprint-2/logo/resources-arzamas.svg"
                 alt="Армаза"
+                class="resources__logo"
             /></a>
             <a href="#" class="resources__link"
-              ><img src="./images_sprint-2/logo/resources-n1.svg" alt="Н+1"
+              ><img
+                src="./images_sprint-2/logo/resources-n1.svg"
+                alt="Н+1"
+                class="resources__logo"
             /></a>
             <a href="#" class="resources__link"
               ><img
                 src="./images_sprint-2/logo/resources-strelka.svg"
                 alt="Стрелка->"
+                class="resources__logo"
             /></a>
             <a href="#" class="resources__link"
               ><img
                 src="./images_sprint-2/logo/resources-polka.svg"
                 alt="Полка"
+                class="resources__logo"
             /></a>
           </div>
         </section>
