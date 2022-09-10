@@ -1,0 +1,13 @@
+.cadrs__item {
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+    width: 240px;
+    /* display: flex;
+    flex-direction: column;
+    text-align: center; */
+}
+
+.cadrs__item:nth-of-type(3n) {
+    margin-right: 0;
+}
