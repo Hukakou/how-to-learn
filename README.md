@@ -29,7 +29,9 @@ _<br>_
 ___
 
   $$С_ПА_СИ_БО$$
+  
   $$з_а$$
+  
   $$В_НИ_МА_НИ_Е$$
 
 ![Патрик](https://korben.info/app/uploads/2020/02/pote_waifu2x_2x_2n.gif)
